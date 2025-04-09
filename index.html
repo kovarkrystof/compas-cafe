@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="assets/icon/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Kavárna Kompas | Místo, kde objevujete nové chutě a vůně kávy.</title>
+</head>
+<body>
+
+<button id="upBtn" title="Jít nahoru"><i class="fas fa-arrow-up"></i></button>
+
+<header class="main-header">
+    <div class="scroll-indicator">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+
+    <nav class="navbar">
+        <a href="#" class="logo">
+            <img src="assets/img/logo-removebg.png" alt="Logo Kavárna Kompas" class="nav-logo">
+        </a>
+    
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#hero">Domů</a></li>
+            <li><a href="#about">O nás</a></li>
+            <li><a href="#menu-highlights">Menu</a></li>
+            <li><a href="#visit-us">Kontakt</a></li>
+        </ul>
+    
+        <div class="menu-icon" id="menuIcon">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <section id="hero" class="hero-section">
+        <div class="hero-content">
+            <h1>Objevte Svůj Směr v Chuti Kávy</h1>
+            <p>V Kavárně Kompas v Olomouci najdete nejen výběrovou kávu, ale i klidné místo pro váš den.</p>
+            <div class="hero-buttons">
+                <a href="menu.html" class="cta-btn">Naše Menu</a>
+                <a href="#visit-us" class="cta-btn secondary"><i class="fas fa-location-arrow"></i> Najděte Nás</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section content-section">
+        <div class="section-title">
+            <h2>Příběh Naší Kávy</h2>
+            <p>Jsme více než jen kavárna – jsme místo setkávání, inspirace a lásky k poctivé kávě.</p>
+        </div>
+        <div class="about-container">
+            <div class="about-block">
+                <img src="assets/img/coffee.png" alt="Šálek kávy">
+                <h3>Káva s sebou i u nás</h3>
+                <p>Vychutnejte si kávu v klidu naší kavárny nebo si ji vezměte s sebou do práce či na procházku.</p>
+            </div>
+            <div class="about-block">
+                <img src="assets/img/coffee-beans.png" alt="Kávová zrna">
+                <h3>Pečlivě vybraná zrna</h3>
+                <p>Naše kávová zrna pocházejí z nejlepších pražíren a jsou vybírána s ohledem na kvalitu a chuť.</p>
+            </div>
+            <div class="about-block">
+                <img src="assets/img/moka-pot.png" alt="Moka konvička">
+                <h3>Připraveno s láskou</h3>
+                <p>Každý šálek je pro vás připravován ručně, s péčí a vášní pro dokonalý kávový zážitek.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu-highlights" class="menu-highlights-section content-section alternate-bg">
+        <div class="section-title">
+            <h2>Ochutnejte Naše Speciality</h2>
+            <p>Malá ukázka toho, co na vás čeká v našem menu.</p>
+        </div>
+        <div class="menu-highlights-container">
+            <div class="highlight-item">
+                <img src="assets/img/kava.jpg" alt="Cappuccino"> <h3>Voňavé Cappuccino</h3>
+                <p>Dokonale našlehané mléko a poctivé espresso.</p>
+            </div>
+            <div class="highlight-item">
+                <img src="assets/img/dezert.jpg" alt="Domácí dezert"> <h3>Domácí Dezerty</h3>
+                <p>Sladká tečka ke kávě? Naše dezerty vás nadchnou.</p>
+            </div>
+            <div class="highlight-item">
+                <img src="assets/img/snidane.jpg" alt="Snídaně"> <h3>Celodenní Snídaně</h3>
+                <p>Začněte den správně s naší nabídkou snídaní.</p>
+            </div>
+        </div>
+        <div class="section-cta">
+            <a href="menu.html" class="cta-btn">Zobrazit Celé Menu</a>
+        </div>
+    </section>
+
+    <section id="atmosphere" class="atmosphere-section content-section">
+        <div class="section-title">
+            <h2>Naše Atmosféra</h2>
+            <p>Místo, kde se budete cítit jako doma.</p>
+        </div>
+        <div class="gallery-grid">
+            <div class="gallery-item"><img src="assets/img/slideshow1.jpg" alt="Interiér kavárny 1"></div>
+            <div class="gallery-item"><img src="assets/img/slideshow2.jpg" alt="Detail kávy"></div>
+            <div class="gallery-item"><img src="assets/img/slideshow3.jpg" alt="Zákusky"></div>
+            <div class="gallery-item"><img src="assets/img/slideshow4.jpg" alt="Posezení u okna"></div>
+        </div>
+    </section>
+
+    <section id="visit-us" class="visit-us-section content-section alternate-bg">
+        <div class="section-title">
+            <h2>Navštivte Nás</h2>
+            <p>Těšíme se na vaši návštěvu v srdci Olomouce.</p>
+        </div>
+        <div class="visit-us-container">
+            <div class="contact-details">
+                <h3>Kontaktní Údaje</h3>
+                <p><strong>Adresa:</strong> Vaše Ulice 123, 779 00 Olomouc</p>
+                <p><a href="tel:+420000000000"><i class="fas fa-phone"></i> +420 000 000 000</a></p>
+                <p><a href="mailto:info@kavarnakompas.cz"><i class="fas fa-envelope"></i> info@kavarnakompas.cz</a></p>
+            </div>
+            <div class="opening-hours">
+                <h3><i class="fas fa-clock"></i> Otevírací Doba</h3>
+                <ul>
+                    <li><i class="far fa-calendar-check"></i> Pondělí - Pátek: 8:00 - 19:00</li>
+                    <li><i class="far fa-calendar-check"></i> Sobota: 9:00 - 18:00</li>
+                    <li><i class="far fa-calendar-times"></i> Neděle: Zavřeno</li>
+                </ul>
+            </div>
+            <div class="map-container">
+                <h3>Kde Nás Najdete</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2602.434844659978!2d17.25017431567889!3d49.5953084793284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4712387099f2b12b%3A0x699c60ee9d02448!2sKav%C3%A1rna%20Kompas!5e0!3m2!1scs!2scz!4v1703780987456!5m2!1scs!2scz"
+                        width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade" title="Mapa umístění Kavárny Kompas"></iframe>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<footer class="main-footer">
+    <div class="footer-columns content-section">
+        <div class="footer-column contact-info">
+            <h3>Kontaktujte nás</h3>
+            <p>Kavárna Kompas</p>
+            <p>Vaše Ulice 123</p>
+            <p>Olomouc, 779 00</p>
+            <p>Telefon: <a href="tel:+420000000000">+420 000 000 000</a></p>
+            <p>Email: <a href="mailto:info@kavarnakompas.cz">info@kavarnakompas.cz</a></p>
+        </div>
+        <div class="footer-column opening-hours">
+            <h3><i class="far fa-clock"></i> Otevírací doba</h3>
+            <ul>
+                <li><i class="far fa-calendar-check"></i> Pondělí - Pátek: 8:00 - 19:00</li>
+                <li><i class="far fa-calendar-check"></i> Sobota: 9:00 - 18:00</li>
+                <li><i class="far fa-calendar-times"></i> Neděle: Zavřeno</li>
+            </ul>
+        </div>
+        <div class="footer-column important-links">
+            <h3>Důležité odkazy</h3>
+            <ul>
+                <li><a href="index.html">Domů</a></li>
+                <li><a href="index.html#about">O nás</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="index.html#visit-us">Kontakt</a></li>
+                <li><a href="prace.html">Kariéra</a></li>
+            </ul>
+        </div>
+        <div class="footer-column social-media">
+            <h3>Sledujte nás</h3>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/" target="_blank" class="social-icon"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/" target="_blank" class="social-icon"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>©<span id="currentYear"></span> Kavárna Kompas. Všechna práva vyhrazena.</p>
+        <div class="madeby-wrapper">
+            <a class="madeby" href="https://github.com/kovarkrystof" target="_blank">Web na míru vytvořil Kryštof Kovář.</a>
+        </div>
+    </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>
